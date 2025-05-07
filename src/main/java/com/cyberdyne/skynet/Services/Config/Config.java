@@ -22,7 +22,7 @@ public class Config
             properties.load(reader);
 
             //Proxy internal port repository address
-            VPNPort=Integer.parseInt(properties.getProperty("Port").toString());
+            VPNPort=Integer.parseInt(properties.getProperty("VPNPort").toString());
 
         }
         catch (Exception e)

@@ -13,7 +13,7 @@ public class App
         new Config();
 
         //Get begin tunnel
-        new VPNCore(Config.VPNPort,"Hello");
+        new Proxy(Config.VPNPort);
 
     }
 }
