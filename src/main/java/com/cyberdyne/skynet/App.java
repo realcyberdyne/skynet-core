@@ -1,6 +1,7 @@
 package com.cyberdyne.skynet;
 
 import com.cyberdyne.skynet.Services.Config.Config;
+import com.cyberdyne.skynet.Services.VPN.Functions.EncVPNCore;
 import com.cyberdyne.skynet.Services.VPN.Functions.Proxy;
 import com.cyberdyne.skynet.Services.VPN.Functions.VPNCore;
 
@@ -13,7 +14,7 @@ public class App
         new Config();
 
         //Get begin tunnel
-        new Proxy(Config.VPNPort);
+        new EncVPNCore(8085,"reza");
 
     }
 }
